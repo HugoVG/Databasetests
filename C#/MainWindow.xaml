@@ -1,0 +1,20 @@
+﻿<Window x:Class="Database_Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Database_Test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="66,340,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click"/>
+        <Label Content="Image" HorizontalAlignment="Left" Margin="66,27,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name Product" HorizontalAlignment="Left" Margin="66,120,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Product Detail" HorizontalAlignment="Left" Margin="66,219,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Findder" Content="Button" HorizontalAlignment="Left" Margin="66,58,0,0" VerticalAlignment="Top" Click="Findder_Click"/>
+        <TextBox x:Name="ProdDet" HorizontalAlignment="Left" Margin="66,250,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ProdNam" HorizontalAlignment="Left" Margin="66,146,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="imgpather" Content="" HorizontalAlignment="Left" Margin="126,55,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
